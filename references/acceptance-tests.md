@@ -159,6 +159,141 @@ Expected behavior:
 * Suggests safer dramatic alternatives without flattening the darkness.
 * Provides a concrete rewrite direction or replacement premise.
 
+## Test 11: Scene Pacing Doctor
+
+Prompt:
+
+```text
+用 story-forge 診斷這場戲的節奏：主角早上醒來，吃飯，整理背包，想到昨天的爭吵，走去車站，等車，路上想起世界觀設定，最後才看到追兵。我要知道哪裡拖、哪裡該切、哪裡該慢。
+```
+
+Expected behavior:
+
+* Identifies event-list narration, late pressure, weak entry hook, and exposition drag.
+* Separates what to cut, compress, move earlier, and expand.
+* Rebuilds the scene around entry pressure, objective, obstacle, turn, cost, and emotional residue.
+* Provides a concrete revised beat order or replacement passage.
+
+## Test 12: Chapter and Information Pacing
+
+Prompt:
+
+```text
+用 story-forge 幫我修一章大綱節奏：第一章先講 5000 字世界觀，第二章主角才遇到危機，第三章一次解釋反派身分和整個魔法規則。我要讀者想翻下一頁。
+```
+
+Expected behavior:
+
+* Flags front-loaded exposition and reveal timing problems.
+* Reorders information into action, clues, misreadings, cost, and consequence.
+* Gives each chapter an opening hook, middle escalation or reveal, ending hook, and emotional residue.
+* Keeps some mystery unresolved.
+
+## Test 13: Whole-Book and Genre Rhythm
+
+Prompt:
+
+```text
+用 story-forge 檢查我的全書節奏：前半本一直打架，沒有休息；中段連續六章都在解釋設定；愛情線突然告白，下一章就分手；結尾 Boss 戰兩頁結束。類型是末世懸疑加成人心理張力。
+```
+
+Expected behavior:
+
+* Diagnoses whole-book monotony, exposition block, rushed emotional beats, and rushed climax.
+* Proposes alternation among crisis, contrast, investigation, group conflict, intimacy, failure, temporary victory, and consequence.
+* Applies genre rhythm: mystery clues, zombie/post-apocalyptic resource pressure, and mature psychological restraint/boundaries/consequences.
+* Gives a concrete macro pacing map or chapter-block restructuring plan.
+
+## Test 14: Novel Project Launch
+
+Prompt:
+
+```text
+用 story-forge 啟動一個長篇小說專案。我只有一個靈感：一個會忘記死者名字的城市。請幫我釐清題材、類型、讀者承諾、主角傷口、核心衝突、結局方向，不要直接開始寫正文。
+```
+
+Expected behavior:
+
+* Reads the request as Novel Completion Coach Mode, not only premise brainstorming.
+* Produces a launch brief with topic, genre/subgenre, reader promise, protagonist wound, external goal, core conflict, antagonist pressure, ending direction, originality angle, and completion scope.
+* Gives a concrete next step toward a full-book roadmap.
+* Avoids over-polishing prose before the project has a direction.
+
+## Test 15: Long-Form Roadmap
+
+Prompt:
+
+```text
+用 story-forge 幫我做全書路線圖：主角是逃亡的宮廷抄寫員，發現王國歷史被人改寫。我要開場、第一轉折、中段反轉、低谷、高潮、結局餘韻。
+```
+
+Expected behavior:
+
+* Builds a flexible full-book structure, not a generic three-act lecture.
+* Defines opening hook, first turn, midpoint reversal, low point, climax, and ending residue.
+* Connects every structural post to character wound, choices, cost, mystery pressure, and reader hunger.
+* Leaves enough unresolved pressure for chapter-by-chapter drafting.
+
+## Test 16: Chapter-by-Chapter Writing Companion
+
+Prompt:
+
+```text
+用 story-forge 陪我寫第七章。前情：主角剛背叛朋友換取進城資格，但不知道朋友其實故意讓他背叛。先幫我定本章目標、衝突、揭露、代價、鉤子，再寫開頭 800 字。
+```
+
+Expected behavior:
+
+* Provides a chapter brief before prose: goal, conflict, reveal, cost, hook, and continuity flags.
+* Preserves betrayal, hidden intention, and relationship pressure.
+* Drafts from the current story pressure instead of resetting context.
+* Ensures the chapter ending direction makes the next chapter harder.
+
+## Test 17: Writer's Block Diagnosis
+
+Prompt:
+
+```text
+用 story-forge 診斷我為什麼卡稿：主角已經知道反派是誰，也拿到神器，朋友也原諒他了，但我還有十章才到結局。
+```
+
+Expected behavior:
+
+* Does not only encourage the author.
+* Diagnoses likely causes: information spent too early, main plot pressure gone, conflict resolved too soon, chapter functions unclear, consequences missing.
+* Gives immediate repair options such as new cost, false victory, deeper antagonist pressure, moral compromise, relationship debt, or delayed/complicated reveal.
+* Proposes the next chapter's function and multiple usable next steps.
+
+## Test 18: Long-Form Continuity Ledger
+
+Prompt:
+
+```text
+用 story-forge 幫我整理長篇連續性台帳。目前：女主角第三章右腿中箭，第五章把銀鑰匙交給弟弟，第八章和隊長決裂，第十章知道魔法會消耗記憶。我要避免後面寫崩。
+```
+
+Expected behavior:
+
+* Tracks timeline, injuries, relationship changes, objects/resources, foreshadowing, mysteries, and world rules.
+* Flags continuity risks such as injury recovery, key ownership, relationship trust, and memory-cost rules.
+* Suggests what later chapters must honor or pay off.
+* Does not invent contradictory canon.
+
+## Test 19: Completion-Oriented Revision Pipeline
+
+Prompt:
+
+```text
+用 story-forge 幫我安排修稿。我初稿還缺三章，但我一直在重修第一章句子。請把修訂流程分成初稿、結構稿、角色稿、節奏稿、對話稿、文風稿，告訴我現在不該做什麼。
+```
+
+Expected behavior:
+
+* Identifies the manuscript phase as unfinished first draft.
+* Warns against endless line-polishing before missing chapters exist.
+* Splits work into first draft, structure draft, character draft, pacing draft, dialogue draft, and style draft.
+* Gives this round's goal, deferred issues, deliverable, and completion criteria.
+
 ## Pass Criteria
 
 Across these tests, a passing Story Forge response should:
@@ -176,3 +311,7 @@ Across these tests, a passing Story Forge response should:
 * distinguish cool setting from actual reader emotion
 * transform inspiration from famous works into clearly original material
 * handle mature 18+ topics with adult-only framing, consent awareness, psychological truth, and consequences
+* diagnose pacing at scene, chapter, whole-book, emotional, information, and genre levels
+* fix dragged setup, event lists, rushed climaxes, skipped residue, and premature exposition with concrete reorder/compress/expand/cut plans
+* guide authors through novel project launch, long-form roadmaps, chapter-by-chapter drafting, writer's block diagnosis, continuity ledgers, first-draft completion, second-draft restructuring, and final revision
+* prevent endless polishing by separating drafting, structural revision, character revision, pacing revision, dialogue revision, and style polish
