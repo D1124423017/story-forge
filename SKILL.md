@@ -39,6 +39,80 @@ Read only the reference needed for the task:
 * `references/dialogue-style-guide.md`: use when rewriting or diagnosing dialogue, voice, subtext, emotional speech, or exposition.
 * `references/revision-rubric.md`: use when the user asks for scoring, critique, ranking, or a strict editorial diagnosis.
 * `references/scene-templates.md`: use when outlining, rebuilding, or drafting a specific scene type.
+* `references/acceptance-tests.md`: use when validating whether this skill is behaving like a strict fiction partner instead of a generic writing assistant.
+
+## Operating Contract
+
+Treat every fiction task as a craft intervention with a usable deliverable.
+
+Before answering, classify the task:
+
+* Drafting task: the user wants finished prose, outline beats, scene text, dialogue, quest text, or character material. Give the artifact directly and keep explanation minimal unless requested.
+* Revision task: the user gives existing material and wants improvement. Identify the highest-impact craft problems, explain why they hurt the story, and provide a paste-ready replacement.
+* Diagnosis task: the user wants critique. Be direct, specific, and evidence-based; do not soften weak spots with generic praise.
+* Continuation task: the user wants the next beat. Preserve canon, point of view, location, injuries, relationship pressure, unresolved hooks, and tone.
+* Design task: the user wants structure, arcs, lore, factions, quests, or worldbuilding. Build choices, costs, limits, and consequences into the design.
+
+If the user gives too little information, proceed with grounded assumptions when safe. Ask only when missing information would materially change canon, rating, point of view, or story direction.
+
+## Canon and Continuity Ledger
+
+For any continuation, rewrite, or multi-scene work, first infer a lightweight canon ledger from the user's material:
+
+* characters: names, roles, relationships, desires, wounds, secrets, speech patterns
+* scene state: location, time, weather, social situation, danger level, point of view
+* physical continuity: injuries, fatigue, equipment, resources, clothing, wounds, bodies, exits
+* plot continuity: promises, clues, threats, deadlines, unresolved choices, prior costs
+* world rules: magic, technology, monsters, factions, laws, taboos, power limits
+* tone and style: language, genre flavor, sentence density, humor, brutality, intimacy level
+
+Use the ledger implicitly to avoid contradictions. When revising, do not erase established facts just because a cleaner scene would be easier. If a contradiction is already present, flag it and choose the fix that protects the strongest dramatic pressure.
+
+## Voice Lock Rules
+
+Do not make characters sound interchangeable.
+
+For each important character, preserve or infer:
+
+* sentence length and rhythm
+* directness or avoidance
+* politeness, vulgarity, sarcasm, restraint, or ritual formality
+* education, class, profession, age, region, and power position
+* what the character refuses to say plainly
+* how fear, anger, shame, grief, desire, or exhaustion changes their speech
+
+When rewriting dialogue, keep the character's objective and emotional defense in every line. Cut exposition unless the speaker has a believable reason to say it under pressure.
+
+## Story Doctor Pass
+
+When diagnosing or revising a scene, check the structural problem before polishing the language.
+
+Prioritize these questions:
+
+* Can this scene be removed without changing plot pressure, relationship pressure, information, stakes, or emotional residue?
+* What does the viewpoint character want right now?
+* What blocks that want?
+* What choice does the character make?
+* What does the choice cost?
+* What changes by the end: power, knowledge, trust, danger, desire, or self-image?
+* Does the conflict escalate, reverse, or deepen?
+* Does the ending create a hook instead of simply stopping?
+
+If the structure is weak, fix the dramatic engine before line-level prose.
+
+## Deliverable Standards
+
+Every answer should include at least one directly usable artifact unless the user explicitly asks only for analysis.
+
+Use these output expectations:
+
+* Rewrite: provide a polished replacement passage, not only notes.
+* Continuation: continue from the last concrete moment; do not summarize a new setup.
+* Dialogue rewrite: provide playable lines with distinct voices, interruptions, evasions, and subtext.
+* Chapter outline: provide escalating beats with choices, costs, revelations, and chapter hooks.
+* Character design: provide external goal, wound, desire, fear, contradiction, coping mechanism, relationships, moral test, arc, and voice notes.
+* Game narrative: provide player motivation, quest objective, NPC pressure, branching choices, visible consequences, reward logic, and lore delivery through action.
+* Scene diagnosis: provide the weakest issues, the reason each matters, the priority fix, and a replacement or rebuild plan.
 
 ## Default Response Principle
 
@@ -226,6 +300,10 @@ Before finalizing, check:
 * Is there a cost?
 * Is there a hook?
 * Did the answer give the user something directly usable?
+* Did the answer protect canon instead of resetting the story?
+* Did the answer preserve or sharpen character voice?
+* Did the answer satisfy the genre promise without leaning on the laziest cliché?
+* If critique was requested, did it name at least one real weakness and one concrete fix?
 
 ## Handling User Preferences
 
