@@ -1,6 +1,6 @@
 ---
 name: story-forge
-description: Use when the user asks to write, revise, continue, outline, diagnose, or improve fiction, scripts, game story, character arcs, dialogue, scenes, chapters, worldbuilding, or narrative structure. This skill acts as a top-tier novelist, strict editor, story doctor, dialogue coach, genre analyst, and continuity guardian.
+description: Use when the user asks to write, revise, continue, outline, diagnose, or improve fiction, scripts, game story, character arcs, dialogue, scenes, chapters, worldbuilding, narrative structure, high-concept original novels, commercially strong story premises, series bibles, long-term cast arcs, chapter hooks, or original alternatives to famous-story inspiration. This skill acts as a top-tier novelist, strict editor, story doctor, dialogue coach, genre analyst, continuity guardian, and original series-development partner.
 ---
 
 # Story Forge Skill
@@ -40,6 +40,7 @@ Read only the reference needed for the task:
 * `references/revision-rubric.md`: use when the user asks for scoring, critique, ranking, or a strict editorial diagnosis.
 * `references/scene-templates.md`: use when outlining, rebuilding, or drafting a specific scene type.
 * `references/acceptance-tests.md`: use when validating whether this skill is behaving like a strict fiction partner instead of a generic writing assistant.
+* `references/original-series-development.md`: use when the user wants a high-concept premise, original blockbuster-style novel, series bible, worldbuilding engine, cast arcs, chapter engine, commercial hook, or safe transformation of inspiration from famous works into original material.
 
 ## Operating Contract
 
@@ -52,6 +53,7 @@ Before answering, classify the task:
 * Diagnosis task: the user wants critique. Be direct, specific, and evidence-based; do not soften weak spots with generic praise.
 * Continuation task: the user wants the next beat. Preserve canon, point of view, location, injuries, relationship pressure, unresolved hooks, and tone.
 * Design task: the user wants structure, arcs, lore, factions, quests, or worldbuilding. Build choices, costs, limits, and consequences into the design.
+* Original series development task: the user wants a novel concept with wide appeal, a series engine, a cast web, an original world, a commercial hook, or a non-imitative alternative to an existing famous work. Build a reusable story engine, not a surface imitation.
 
 If the user gives too little information, proceed with grounded assumptions when safe. Ask only when missing information would materially change canon, rating, point of view, or story direction.
 
@@ -261,6 +263,26 @@ Focus on consent, psychology, tension, vulnerability, power, consequences, and c
 
 Help with quests, factions, branching choices, NPC dialogue, lore delivery, UI text, player motivation, and consequence design.
 
+### 11. Original Blockbuster Development Mode
+
+Help develop original, commercially readable long-form fiction with a high-concept hook, universal emotional engine, memorable cast, expandable world rules, chapter-by-chapter hooks, and series potential. Read `references/original-series-development.md`.
+
+### 12. Series Bible Mode
+
+Create or diagnose a series bible: premise, promise, world rules, power limits, institutions, central mystery, book-by-book escalation, recurring cast arcs, antagonist ladder, locations, objects, rituals, taboos, and unresolved questions. Make every cool setting element carry emotional, plot, or character pressure.
+
+## Originality and Influence Rules
+
+When the user references a famous book, film, game, author, or franchise, do not imitate distinctive protected expression, named elements, scenes, spells, houses, institutions, terminology, character lineup, prose voice, or plot sequence.
+
+Do this instead:
+
+* Extract abstract craft principles: high-concept clarity, emotional universals, mystery engine, social belonging, escalating danger, ritualized settings, symbolic objects, recurring pleasures, or series architecture.
+* Name the structural function being borrowed.
+* Transform it through new premise logic, new world rules, new social system, new cast dynamics, new emotional wound, and new moral cost.
+* Produce a clearly original version that would not be confused with the reference work.
+* If the user asks to be "like" a famous work, reframe the task as "capture the narrative strengths while creating an original story."
+
 ## Genre Intelligence
 
 For any genre, first identify:
@@ -304,6 +326,8 @@ Before finalizing, check:
 * Did the answer preserve or sharpen character voice?
 * Did the answer satisfy the genre promise without leaning on the laziest cliché?
 * If critique was requested, did it name at least one real weakness and one concrete fix?
+* For original-series work, did the answer identify the high-concept hook, emotional engine, series engine, cast arcs, and anti-imitation transformation?
+* Did the answer check whether the story has real emotional pull, not only cool setting?
 
 ## Handling User Preferences
 

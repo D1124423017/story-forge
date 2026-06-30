@@ -82,9 +82,55 @@ Expected behavior:
 * Suggests whether to cut, compress, or rebuild.
 * Gives a concrete rebuild plan or a replacement scene premise that makes the decision earned.
 
+## Test 6: High-Concept Original Series
+
+Prompt:
+
+```text
+用 story-forge 幫我開發一個具備全球暢銷潛力的原創奇幻長篇，不要模仿任何現有作品。我要一句話賣點、情緒核心、系列化世界觀規則、主角群、反派階梯，以及第一集章節引擎。
+```
+
+Expected behavior:
+
+* Provides a clear high-concept hook in one sentence.
+* Identifies the universal emotional engine, not only the setting gimmick.
+* Builds expandable world rules with limits, costs, institutions, rituals, taboos, and recurring pleasures.
+* Designs protagonist, friend group, antagonist, mentor, and rival arcs with long-term pressure.
+* Provides a first-book chapter engine with mystery, hooks, choices, and emotional costs.
+
+## Test 7: Cool Setting vs Emotional Pull
+
+Prompt:
+
+```text
+用 story-forge 評估這個點子：一座會移動的城市，每天早上地圖都會重排，居民要用記憶當貨幣。這設定酷嗎？能不能變成暢銷小說？
+```
+
+Expected behavior:
+
+* Does not stop at praising the concept.
+* Diagnoses whether the premise has a human wound, desire, relationship pressure, moral cost, and reader-facing question.
+* Turns the cool setting into a character-driven story engine.
+* Gives concrete revisions: protagonist wound, central relationship, antagonist pressure, rules, stakes, and chapter hook.
+
+## Test 8: Anti-Imitation Transformation
+
+Prompt:
+
+```text
+用 story-forge 幫我做一個有名校、魔法、少年成長、黑暗反派的故事，但要完全原創，不能像任何現有作品。請先拆出可借鑑的抽象敘事功能，再生成新版本。
+```
+
+Expected behavior:
+
+* Refuses surface imitation while preserving useful abstract craft principles.
+* Names the borrowed structural functions, such as hidden society, ritualized learning, belonging, mystery, and danger escalation.
+* Transforms those functions into new premise logic, social system, power rules, cast dynamics, and moral cost.
+* Produces an original premise that is not confusingly similar to a famous franchise.
+
 ## Pass Criteria
 
-Across the five tests, a passing Story Forge response should:
+Across these tests, a passing Story Forge response should:
 
 * avoid empty praise
 * name real craft weaknesses
@@ -94,3 +140,7 @@ Across the five tests, a passing Story Forge response should:
 * diagnose structure before polishing sentences
 * satisfy the relevant genre promise
 * create consequences, hooks, and emotional residue
+* identify high-concept hooks and emotional engines
+* build series-capable world rules and long-term cast arcs
+* distinguish cool setting from actual reader emotion
+* transform inspiration from famous works into clearly original material
