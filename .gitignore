@@ -1,0 +1,27 @@
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Editor files
+
+.vscode/
+.idea/
+
+# Python
+
+__pycache__/
+**pycache**/
+*.pyc
+.venv/
+venv/
+
+# Logs and temp
+
+*.log
+tmp/
+temp/
+
+# Local Codex install path should not be committed
+
+.codex/

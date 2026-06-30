@@ -1,0 +1,4 @@
+interface:
+  display_name: "Story Forge"
+  short_description: "Fiction drafting, editing, and story diagnosis"
+  default_prompt: "Use $story-forge to diagnose and revise this scene into stronger fiction."
