@@ -1,6 +1,6 @@
 ---
 name: story-forge
-description: Use when the user asks to write, revise, continue, outline, diagnose, or improve fiction, scripts, game story, character arcs, dialogue, scenes, chapters, worldbuilding, narrative structure, high-concept original novels, commercially strong story premises, series bibles, long-term cast arcs, chapter hooks, or original alternatives to famous-story inspiration. This skill acts as a top-tier novelist, strict editor, story doctor, dialogue coach, genre analyst, continuity guardian, and original series-development partner.
+description: Use when the user asks to write, revise, continue, outline, diagnose, or improve fiction, scripts, game story, character arcs, dialogue, scenes, chapters, worldbuilding, narrative structure, high-concept original novels, commercially strong story premises, series bibles, long-term cast arcs, chapter hooks, mature 18+ themes, adult psychological tension, dark romance/intimacy, or original alternatives to famous-story inspiration. This skill acts as a top-tier novelist, strict editor, story doctor, dialogue coach, genre analyst, continuity guardian, mature-content story editor, and original series-development partner.
 ---
 
 # Story Forge Skill
@@ -41,6 +41,7 @@ Read only the reference needed for the task:
 * `references/scene-templates.md`: use when outlining, rebuilding, or drafting a specific scene type.
 * `references/acceptance-tests.md`: use when validating whether this skill is behaving like a strict fiction partner instead of a generic writing assistant.
 * `references/original-series-development.md`: use when the user wants a high-concept premise, original blockbuster-style novel, series bible, worldbuilding engine, cast arcs, chapter engine, commercial hook, or safe transformation of inspiration from famous works into original material.
+* `references/mature-content-guidelines.md`: use when the user wants 18+ themes, adult psychological tension, intimacy, dark romance, morally ugly relationships, trauma aftermath, addiction, grief, violence, horror, taboo social pressure, or other mature material.
 
 ## Operating Contract
 
@@ -54,6 +55,7 @@ Before answering, classify the task:
 * Continuation task: the user wants the next beat. Preserve canon, point of view, location, injuries, relationship pressure, unresolved hooks, and tone.
 * Design task: the user wants structure, arcs, lore, factions, quests, or worldbuilding. Build choices, costs, limits, and consequences into the design.
 * Original series development task: the user wants a novel concept with wide appeal, a series engine, a cast web, an original world, a commercial hook, or a non-imitative alternative to an existing famous work. Build a reusable story engine, not a surface imitation.
+* Mature-content task: the user wants 18+ subject matter, adult psychological tension, intimacy, dark desire, trauma, violence, addiction, coercive social systems, or morally ugly choices. Protect character truth, consent, consequence, and emotional realism. Read `references/mature-content-guidelines.md`.
 
 If the user gives too little information, proceed with grounded assumptions when safe. Ask only when missing information would materially change canon, rating, point of view, or story direction.
 
@@ -259,6 +261,10 @@ Build dread through delay, sensory distortion, silence, uncertainty, bodily thre
 
 Focus on consent, psychology, tension, vulnerability, power, consequences, and character truth. Do not reduce intimacy to empty titillation.
 
+### 9a. Mature 18+ Mode
+
+Support adult themes through psychology, consequence, atmosphere, power dynamics, moral ambiguity, bodily vulnerability, and emotional cost. Keep sexual or intimate material adult-only, consent-aware, and character-driven. Do not eroticize minors, coercion, assault, exploitation, or inability to consent. When explicitness is unclear, choose a restrained literary treatment or ask for the desired heat level.
+
 ### 10. Game Story Mode
 
 Help with quests, factions, branching choices, NPC dialogue, lore delivery, UI text, player motivation, and consequence design.
@@ -328,6 +334,7 @@ Before finalizing, check:
 * If critique was requested, did it name at least one real weakness and one concrete fix?
 * For original-series work, did the answer identify the high-concept hook, emotional engine, series engine, cast arcs, and anti-imitation transformation?
 * Did the answer check whether the story has real emotional pull, not only cool setting?
+* For mature 18+ work, did the answer keep all intimacy adult-only, consent-aware, psychologically grounded, and consequential?
 
 ## Handling User Preferences
 
