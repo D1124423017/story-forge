@@ -1,10 +1,13 @@
 # story-forge
 
-![Story Forge hero](docs/assets/story-forge-hero.png)
+<picture>
+  <source srcset="docs/assets/story-forge-hero.webp" type="image/webp">
+  <img src="docs/assets/story-forge-hero.png" alt="Story Forge hero">
+</picture>
 
 **story-forge** is a Codex Agent Skill for fiction writing, revision, dialogue coaching, story diagnosis, pacing repair, novel completion coaching, genre analysis, narrative design, mature 18+ themes, and original series development.
 
-[Open the multilingual guide](https://d1124423017.github.io/story-forge/) · [Source skill](SKILL.md) · [Novel Completion Coach](references/novel-completion-coach.md)
+[Open the multilingual guide](https://d1124423017.github.io/story-forge/) · [Source skill](SKILL.md) · [Novel Completion Coach](references/novel-completion-coach.md) · [Examples](examples/)
 
 Languages: [中文](#中文使用教學) · [English](#english-guide) · [日本語](#日本語ガイド) · [한국어](#한국어-가이드)
 
@@ -21,12 +24,68 @@ story-forge helps Codex act as a strict novelist, story doctor, pacing doctor, l
 | Story Doctor | Diagnose weak scenes, flat conflict, missing costs, unclear motivation, continuity breaks, and genre promise failures. |
 | Dialogue Coach | Rewrite character-specific dialogue with subtext, pressure, interruption, and distinct voice. |
 | Mature 18+ Editor | Handle adult themes with consent awareness, psychological consequence, boundaries, and character truth. |
+| Prose Style Lab | Diagnose POV distance, sentence rhythm, imagery, narrative density, cold/warm tone, and humor. |
+| Publishing Package | Prepare query letters, synopsis, blurbs, serial launch plans, and chapter title strategies. |
 
 ## Structure
 
 * SKILL.md: core skill instructions and trigger description
 * agents/openai.yaml: Codex UI metadata and invocation prompt
-* references/: writing checklists, genre patterns, dialogue guide, mature-content rules, pacing doctor rules, novel completion coaching, revision rubric, scene templates, acceptance tests, and original series-development guidance
+* references/: writing checklists, genre patterns, dialogue guide, mature-content rules, pacing doctor rules, novel completion coaching, prose style lab, publishing package guidance, revision rubric, scene templates, acceptance tests, and original series-development guidance
+* assets/novel-project-template/: reusable project files for long-form fiction workspaces
+* scripts/: project creation and skill contract validation helpers
+* examples/: high-standard example outputs for common workflows
+
+## Installation / Update
+
+Use this repository as the source repo:
+
+```powershell
+git clone https://github.com/D1124423017/story-forge.git
+cd story-forge
+```
+
+The installed Codex skill should contain runtime files only:
+
+```text
+C:\Users\lenny\.codex\skills\story-forge
+```
+
+Runtime files are:
+
+```text
+SKILL.md
+agents/
+references/
+scripts/
+assets/novel-project-template/
+```
+
+Do not treat the installed Codex directory as the main Git repo. Keep commits and pushes in the source repo.
+
+## Create a Novel Project Workspace
+
+```powershell
+python scripts/create_novel_project.py --title "失名之城" --out "C:\Users\lenny\OneDrive\Desktop"
+```
+
+This creates:
+
+```text
+project-brief.md
+chapter-tracker.md
+continuity-ledger.md
+character-bible.md
+revision-plan.md
+```
+
+## Validation
+
+```powershell
+python scripts/validate_skill_contract.py --skill-dir .
+node --check docs/app.js
+git diff --check
+```
 
 ## 中文使用教學
 
@@ -111,6 +170,21 @@ $story-forge로 7장을 함께 써줘. 먼저 장 목표, 갈등, 공개 정보,
 ## Suggested usage
 
 Use this skill when working on fiction, scripts, game narrative, character arcs, dialogue, scenes, chapters, long-form roadmaps, whole-book pacing, information reveals, worldbuilding, story revision, first-draft completion, second-draft restructuring, final revision, writer's block diagnosis, mature 18+ themes, high-concept premises, series bibles, chapter engines, or original alternatives to famous-story inspiration.
+
+## Examples
+
+Start with these examples when calibrating the skill:
+
+* [Novel launch](examples/01-novel-launch.md)
+* [Chapter companion](examples/02-chapter-companion.md)
+* [Writer's block diagnosis](examples/03-writers-block-diagnosis.md)
+* [Continuity ledger](examples/04-continuity-ledger.md)
+* [Second-draft restructure](examples/05-second-draft-restructure.md)
+* [Mature boundary repair](examples/06-mature-boundary-repair.md)
+
+## Version
+
+Current version: `v0.2.0`
 
 ## GitHub Pages
 

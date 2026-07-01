@@ -1,0 +1,26 @@
+name: Skill improvement
+description: Suggest a new mode, reference, example, genre, or workflow.
+title: "[Improvement]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What writing workflow should improve?
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example prompt or use case
+      description: Show how an author would use this improvement.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What would count as a good implementation?
+    validations:
+      required: false

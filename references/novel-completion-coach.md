@@ -142,6 +142,20 @@ Use this output:
 【正文 / 章節節拍】
 ```
 
+## Project Workspace Templates
+
+When the user wants a durable project workspace, use the bundled templates under `assets/novel-project-template/` or run `scripts/create_novel_project.py` when working locally.
+
+Workspace files:
+
+* `project-brief.md`: premise, reader promise, protagonist wound, conflict, ending direction, originality
+* `chapter-tracker.md`: chapter status, POV, goal, conflict, reveal, cost, hook, continuity updates
+* `continuity-ledger.md`: timeline, character state, injuries, objects, foreshadowing, mysteries, world rules
+* `character-bible.md`: cast arcs, voice notes, antagonist pressure, relationship ledger
+* `revision-plan.md`: first draft, structure, character, pacing, dialogue, and style passes
+
+If the user asks to create files, create the workspace rather than only describing it. If the user asks conceptually, show the file map and explain how each file will be used.
+
 ## Writer's Block Diagnosis
 
 When the user says they are stuck, do not only encourage them. Diagnose the craft cause.
@@ -175,6 +189,21 @@ Use this output:
 2.
 3.
 ```
+
+## Writer's Block Decision Tree
+
+Use the stuck point to choose the repair:
+
+* stuck before the next chapter: define the chapter job; if no job exists, skip, merge, or move the chapter.
+* stuck in the middle: add reversal, consequence, narrowing pressure, or a false victory with cost.
+* stuck near the ending: identify the final moral choice; if the climax is only combat, add belief, relationship, or sacrifice.
+* protagonist will not move: sharpen want, fear, deadline, shame, debt, or irreversible loss.
+* antagonist feels weak: give the antagonist leverage, truth, institutional power, emotional access, or a plan that wins if untouched.
+* worldbuilding is too large: choose one rule that hurts someone now and delay the rest.
+* romance stalls: identify the boundary, vulnerability, public cost, and reason confession is dangerous.
+* mystery dies early: convert the answer into a partial answer that creates a sharper question.
+
+Do not solve block by adding lore unless the missing lore changes pressure on the page.
 
 ## Long-Form Continuity Management
 
@@ -212,6 +241,42 @@ Use this output when the user asks for tracking:
 
 【目前風險】
 ```
+
+## After-Chapter Continuity Update Protocol
+
+After drafting or revising a chapter, update the ledger before moving on. Use this protocol:
+
+```text
+【章節】
+
+【時間線更新】
+時間 / 地點 / 旅程 / 倒數壓力
+
+【角色狀態更新】
+身體 / 情緒 / 知道的新資訊 / 仍隱瞞的秘密
+
+【關係變化】
+信任 / 債務 / 背叛 / 吸引 / 怨恨 / 地位
+
+【傷勢與限制】
+新增 / 惡化 / 緩解 / 之後必須影響的行動
+
+【道具與資源】
+誰持有 / 是否消耗 / 是否轉移 / 下一次可用條件
+
+【伏筆】
+新增暗示 / 重複意象 / 需要回收的位置
+
+【謎團】
+新增問題 / 新線索 / 誤導 / 已揭露答案 / 仍需保留
+
+【世界規則】
+本章展示的規則 / 代價 / 限制 / 可能矛盾
+
+【下章必須遵守】
+```
+
+If a chapter creates no ledger update, suspect the chapter is decorative or underpowered.
 
 ## Completion-Oriented Revision Pipeline
 

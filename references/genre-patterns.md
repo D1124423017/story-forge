@@ -236,3 +236,165 @@ Use this reference when a story needs genre-aware drafting, diagnosis, outlining
    * What can the player choose that changes tone, access, allies, or endings?
    * Which NPC line gives motive in fewer words?
    * How does the world remember the player's action?
+
+## Historical Fiction
+
+1. genre promise
+   * Make the past feel materially specific while dramatizing human pressure, social constraint, and irreversible choice.
+2. reader expectations
+   * Food, clothing, law, class, religion, labor, medicine, travel, and speech should shape conflict.
+3. common clichés
+   * Modern values pasted onto every character without cost.
+   * Historical facts delivered as lectures.
+   * Famous events used as wallpaper.
+4. useful tension tools
+   * Let social rule, technology, distance, illness, documents, and reputation create obstacles.
+   * Make private desire collide with public consequence.
+5. revision questions
+   * What could this character not safely say in this era?
+   * Which historical detail changes the choice, not only the scenery?
+
+## Crime / Noir
+
+1. genre promise
+   * Deliver moral compromise, pressure from institutions or criminals, secrets, guilt, and a truth that costs something.
+2. reader expectations
+   * Motive, leverage, money, violence, class, corruption, and witness credibility matter.
+3. common clichés
+   * Cynical narration with no emotional wound.
+   * Crime solved by coincidence.
+   * Femme fatale or gangster stereotypes without agency.
+4. useful tension tools
+   * Give every alliance a price and every clue a risk.
+   * Let the protagonist need something from people they should not trust.
+5. revision questions
+   * What truth is more dangerous than the crime?
+   * What does the protagonist become willing to do?
+
+## Wuxia / Xianxia
+
+1. genre promise
+   * Deliver martial or cultivation progression, honor, sect pressure, mythic scale, rivalry, debt, and moral tests.
+2. reader expectations
+   * Techniques, oaths, lineage, resources, realms, masters, rivals, and karmic cost should matter.
+3. common clichés
+   * Power-ups without cost.
+   * Arrogant young masters repeated without variation.
+   * Realm names replacing emotional stakes.
+4. useful tension tools
+   * Tie power to debt, body damage, reputation, sect law, forbidden technique, or lost memory.
+   * Make honor and survival incompatible.
+5. revision questions
+   * What does advancement cost besides training time?
+   * Which relationship becomes harder when the protagonist grows stronger?
+
+## LitRPG / Progression
+
+1. genre promise
+   * Deliver measurable growth, strategic choice, build identity, challenge escalation, and satisfying feedback.
+2. reader expectations
+   * Systems must be consistent and choices must matter.
+3. common clichés
+   * Numbers replacing drama.
+   * Grinding without character or plot change.
+   * Overpowered abilities that erase tension.
+4. useful tension tools
+   * Make every upgrade exclude another path.
+   * Let system rules create social, moral, or bodily cost.
+5. revision questions
+   * What build choice reveals character?
+   * What can the system not solve?
+
+## Court Intrigue
+
+1. genre promise
+   * Deliver status pressure, secrets, public performance, factional leverage, rumor, etiquette, and betrayal.
+2. reader expectations
+   * A glance, seat, gift, marriage, document, or title can change power.
+3. common clichés
+   * Everyone speaks in obvious threats.
+   * Politics detached from food, money, marriage, law, military, or religion.
+4. useful tension tools
+   * Make every polite exchange carry a hidden transaction.
+   * Track who knows what and who can prove it.
+5. revision questions
+   * What is said publicly and what is meant privately?
+   * Who loses face if the truth appears?
+
+## Comedy / Satire
+
+1. genre promise
+   * Deliver recognition, reversal, absurdity, contradiction, timing, and social bite.
+2. reader expectations
+   * Humor should expose character, system, hypocrisy, fear, or desire.
+3. common clichés
+   * Random jokes unrelated to pressure.
+   * Characters becoming stupid only for a punchline.
+4. useful tension tools
+   * Let people pursue serious wants through absurd methods.
+   * Use escalation, callback, status reversal, and bureaucratic logic.
+5. revision questions
+   * What truth does the joke reveal?
+   * Does the humor increase or cancel pressure?
+
+## Literary Fiction
+
+1. genre promise
+   * Deliver psychological truth, language, moral ambiguity, social observation, and emotional residue.
+2. reader expectations
+   * Inner change, perception, memory, relationship, and consequence matter as much as event.
+3. common clichés
+   * Beautiful vagueness without pressure.
+   * Inaction mistaken for depth.
+4. useful tension tools
+   * Make small choices expose self-deception.
+   * Use motif, memory, silence, and social detail as pressure.
+5. revision questions
+   * What truth is the character avoiding?
+   * What changes by the end if the plot is quiet?
+
+## Family Drama
+
+1. genre promise
+   * Deliver love, obligation, resentment, inheritance, memory, care, shame, loyalty, and old wounds.
+2. reader expectations
+   * History should enter through behavior, not exposition alone.
+3. common clichés
+   * One conversation fixes decades of pain.
+   * Family members defined by one trait.
+4. useful tension tools
+   * Use repeated rituals, money, illness, caregiving, rooms, food, photos, and inherited objects.
+5. revision questions
+   * What can this family not say directly?
+   * Which old debt shapes the current scene?
+
+## Workplace Drama
+
+1. genre promise
+   * Deliver ambition, competence, hierarchy, status, burnout, ethics, teamwork, and institutional pressure.
+2. reader expectations
+   * Work should have real procedures, stakes, jargon in moderation, and consequences.
+3. common clichés
+   * Office setting as generic backdrop.
+   * Villain boss with no system logic.
+4. useful tension tools
+   * Use deadlines, meetings, performance reviews, clients, budgets, errors, and public credit.
+5. revision questions
+   * What happens if the work fails?
+   * Who benefits from the current process?
+
+## Political / Legal / Medical
+
+1. genre promise
+   * Deliver institutional stakes, procedure, ethics, public consequence, private cost, and expert pressure.
+2. reader expectations
+   * Process matters: law, evidence, diagnosis, policy, chain of command, liability, consent, and records.
+3. common clichés
+   * Experts breaking rules without consequence.
+   * Procedure ignored whenever inconvenient.
+4. useful tension tools
+   * Make the rule itself a source of conflict.
+   * Put private compassion against professional duty.
+5. revision questions
+   * What rule blocks the emotionally obvious solution?
+   * What record, witness, diagnosis, or vote changes the outcome?

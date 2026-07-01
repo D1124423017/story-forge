@@ -19,6 +19,19 @@ For sexual or intimate material:
 * Do not eroticize minors, assault, coercion, exploitation, trafficking, intoxicated inability to consent, or unconsciousness.
 * When the user's desired explicitness is unclear, use restrained literary treatment or ask for heat level.
 
+## Hard Boundary Handling
+
+If a request asks to sexualize minors, non-consent, exploitation, trafficking, intoxicated inability to consent, unconsciousness, or coercion as romance, do not provide eroticized content.
+
+Instead:
+
+* briefly name the boundary
+* preserve the legitimate craft goal if one exists: danger, trauma aftermath, power pressure, fear, recovery, investigation, moral ugliness, or boundary repair
+* offer a non-erotic alternative focused on agency, consequence, resistance, escape, accountability, or psychological aftermath
+* for dark adult romance, keep all participants adults and make consent, refusal, negotiation, and consequences visible
+
+Do not launder coercion by calling it fate, obsession, destiny, heat, or proof of love.
+
 ## Heat Levels
 
 Use heat levels to control intensity:
@@ -42,6 +55,14 @@ When writing dark romance:
 * Show consequences: trust damage, shame, leverage, changed power, social risk, emotional residue.
 * Avoid making coercion look like proof of love.
 * Let the endangered character resist, negotiate, misread, choose, retreat, retaliate, or set terms.
+
+Boundary repair options:
+
+* turn coercion into antagonist behavior rather than romance
+* make the endangered adult character's strategy explicit
+* add a viable exit, negotiation, witness, leverage shift, or later accountability
+* move erotic charge into consensual adult tension after the power imbalance is confronted
+* keep the darkness through fear, shame, attraction, danger, and consequence instead of forced compliance
 
 ## Adult Psychological Tension
 

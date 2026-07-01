@@ -1,4 +1,4 @@
 interface:
   display_name: "Story Forge"
-  short_description: "Novel coaching, pacing, mature fiction, series design"
-  default_prompt: "Use $story-forge to plan, draft, and finish a long-form novel."
+  short_description: "Novel systems, style, publishing, pacing, revision"
+  default_prompt: "Use $story-forge to plan, draft, track, revise, and package a novel."

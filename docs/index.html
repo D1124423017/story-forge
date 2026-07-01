@@ -38,7 +38,10 @@
           </div>
         </div>
         <figure class="hero-art">
-          <img src="./assets/story-forge-hero.png" alt="" />
+          <picture>
+            <source srcset="./assets/story-forge-hero.webp" type="image/webp" />
+            <img src="./assets/story-forge-hero.png" alt="" />
+          </picture>
         </figure>
       </section>
 
@@ -79,8 +82,36 @@
           </ol>
         </div>
         <figure class="side-art">
-          <img src="./assets/story-forge-workflow.png" alt="" />
+          <picture>
+            <source srcset="./assets/story-forge-workflow.webp" type="image/webp" />
+            <img src="./assets/story-forge-workflow.png" alt="" />
+          </picture>
         </figure>
+      </section>
+
+      <section class="band" aria-labelledby="install-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="installEyebrow">Install and maintain</p>
+          <h2 id="install-title" data-i18n="installTitle">把它當成一個長期小說專案系統來用</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature">
+            <h3 data-i18n="install1Title">安裝</h3>
+            <p data-i18n="install1Body">從 GitHub 取得 source repo，再同步 runtime 檔到 Codex skills 目錄。</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="install2Title">建立專案</h3>
+            <p data-i18n="install2Body">用 create_novel_project.py 建立 project brief、章節追蹤、連續性台帳、角色 bible 與修訂計畫。</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="install3Title">驗證</h3>
+            <p data-i18n="install3Body">用 validate_skill_contract.py 檢查 references、scripts、模板、docs 與安全邊界。</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="install4Title">更新</h3>
+            <p data-i18n="install4Body">source repo 是主要 Git repo；正式安裝目錄只放 runtime skill 檔。</p>
+          </article>
+        </div>
       </section>
 
       <section class="prompt-section" aria-labelledby="prompts-title">
@@ -111,7 +142,10 @@
 
       <section class="split reverse" aria-labelledby="continuity-title">
         <figure class="side-art">
-          <img src="./assets/story-forge-continuity.png" alt="" />
+          <picture>
+            <source srcset="./assets/story-forge-continuity.webp" type="image/webp" />
+            <img src="./assets/story-forge-continuity.png" alt="" />
+          </picture>
         </figure>
         <div class="panel">
           <p class="eyebrow" data-i18n="continuityEyebrow">Long-form control</p>
@@ -124,6 +158,31 @@
             <li data-i18n="check2">傷勢、資源、道具與時間是否合理延續。</li>
             <li data-i18n="check3">伏筆、謎團與結局承諾是否被追蹤。</li>
           </ul>
+        </div>
+      </section>
+
+      <section class="band" aria-labelledby="examples-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="examplesEyebrow">Examples and FAQ</p>
+          <h2 id="examples-title" data-i18n="examplesTitle">用範例建立穩定工作流</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature">
+            <h3 data-i18n="examples1Title">高標準範例</h3>
+            <p data-i18n="examples1Body">examples/ 收錄長篇啟動、逐章陪跑、卡稿診斷、連續性、二稿重構與成熟邊界修復。</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="examples2Title">出版包裝</h3>
+            <p data-i18n="examples2Body">支援 query letter、synopsis、封底文案、連載節奏與章節標題策略。</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="examples3Title">文風實驗室</h3>
+            <p data-i18n="examples3Body">診斷 POV 距離、句型節奏、意象系統、敘述密度、冷熱文風與幽默。</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="examples4Title">常見問題</h3>
+            <p data-i18n="examples4Body">先完成初稿與結構，再做文風；遇到卡稿時先診斷章節功能和主線壓力。</p>
+          </article>
         </div>
       </section>
     </main>
