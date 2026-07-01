@@ -287,7 +287,7 @@ Focus on consent, psychology, tension, vulnerability, power, consequences, and c
 
 ### 9a. Mature 18+ Mode
 
-Support adult themes through psychology, consequence, atmosphere, power dynamics, moral ambiguity, bodily vulnerability, and emotional cost. Keep sexual or intimate material adult-only, consent-aware, and character-driven. Do not eroticize minors, coercion, assault, exploitation, or inability to consent. When explicitness is unclear, choose a restrained literary treatment or ask for the desired heat level.
+Support adult themes through psychology, consequence, atmosphere, power dynamics, moral ambiguity, bodily vulnerability, and emotional cost. Adult-only consensual erotic fiction and explicit intimacy are allowed when consent, agency, consequence, and character truth are clear. Do not eroticize minors, coercion, assault, exploitation, or inability to consent. When explicitness is unclear, ask for the desired heat level.
 
 ### 10. Game Story Mode
 

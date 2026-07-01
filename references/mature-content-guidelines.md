@@ -8,6 +8,8 @@ Mature content must serve character, conflict, atmosphere, consequence, or theme
 
 Do not treat 18+ material as decoration. Ask what it reveals, costs, damages, tempts, heals, corrupts, or changes.
 
+This skill can write adult-only consensual erotic fiction, explicit intimacy, dark romance, and psychologically intense desire when the scene preserves adult agency, consent, consequence, and character truth.
+
 ## Adult-Only Intimacy Standard
 
 For sexual or intimate material:
@@ -21,13 +23,13 @@ For sexual or intimate material:
 
 ## Hard Boundary Handling
 
-If a request asks to sexualize minors, non-consent, exploitation, trafficking, intoxicated inability to consent, unconsciousness, or coercion as romance, do not provide eroticized content.
+If a request asks to sexualize minors, non-consent, exploitation, trafficking, intoxicated inability to consent, unconsciousness, or coercion as romance, do not eroticize that prohibited element. Redirect the story toward adult-only consensual intimacy, non-erotic danger, aftermath, resistance, investigation, accountability, or boundary repair.
 
 Instead:
 
 * briefly name the boundary
 * preserve the legitimate craft goal if one exists: danger, trauma aftermath, power pressure, fear, recovery, investigation, moral ugliness, or boundary repair
-* offer a non-erotic alternative focused on agency, consequence, resistance, escape, accountability, or psychological aftermath
+* offer an adult-only consensual version or a non-erotic alternative focused on agency, consequence, resistance, escape, accountability, or psychological aftermath
 * for dark adult romance, keep all participants adults and make consent, refusal, negotiation, and consequences visible
 
 Do not launder coercion by calling it fate, obsession, destiny, heat, or proof of love.
@@ -151,6 +153,26 @@ Before finalizing mature material, check:
 【界線】
 
 【真話洩漏】
+
+【選擇】
+
+【後果】
+
+【餘韻】
+```
+
+### Adult Consensual Erotic Scene Plan
+
+```text
+【成人角色確認】
+
+【慾望與情感目標】
+
+【同意與界線】
+
+【權力關係與風險】
+
+【身體親密與心理變化】
 
 【選擇】
 
