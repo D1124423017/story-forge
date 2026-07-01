@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Story Forge</title>
+    <meta
+      name="description"
+      content="Story Forge is a Codex Agent Skill for fiction writing, novel completion coaching, pacing diagnosis, revision, and continuity management."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Story Forge">
+      <a class="brand" href="#top" aria-label="Story Forge home">
+        <img src="./assets/story-forge-mark.svg" alt="" />
+        <span>Story Forge</span>
+      </a>
+      <nav class="nav-actions" aria-label="Language switcher">
+        <button class="lang-button is-active" type="button" data-lang="zh-Hant">中文</button>
+        <button class="lang-button" type="button" data-lang="en">EN</button>
+        <button class="lang-button" type="button" data-lang="ja">日本語</button>
+        <button class="lang-button" type="button" data-lang="ko">한국어</button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">Codex Agent Skill</p>
+          <h1 data-i18n="heroTitle">把靈感推到完稿的小說鍛造台</h1>
+          <p class="hero-lede" data-i18n="heroLede">
+            story-forge 讓 Codex 成為嚴格小說家、故事醫生、節奏醫生、對話教練與長篇小說完稿教練。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#usage" data-i18n="startButton">開始使用</a>
+            <a class="button secondary" href="https://github.com/D1124423017/story-forge" data-i18n="repoButton">查看 GitHub</a>
+          </div>
+        </div>
+        <figure class="hero-art">
+          <img src="./assets/story-forge-hero.png" alt="" />
+        </figure>
+      </section>
+
+      <section class="band" aria-labelledby="what-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="whatEyebrow">What it does</p>
+          <h2 id="what-title" data-i18n="whatTitle">不只寫一段好文字，而是推進整本書</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature">
+            <h3 data-i18n="feature1Title">小說專案啟動</h3>
+            <p data-i18n="feature1Body">釐清題材、類型、讀者承諾、主角傷口、核心衝突與結局方向。</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feature2Title">長篇路線圖</h3>
+            <p data-i18n="feature2Body">建立開場、第一轉折、中段反轉、低谷、高潮與結局餘韻。</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feature3Title">逐章寫作陪跑</h3>
+            <p data-i18n="feature3Body">每章先定目標、衝突、揭露、代價與鉤子，再協助寫正文。</p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="feature4Title">卡稿與修訂</h3>
+            <p data-i18n="feature4Body">診斷卡稿原因，並把修訂拆成結構、角色、節奏、對話與文風階段。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="split" aria-labelledby="usage-title" id="usage">
+        <div class="panel">
+          <p class="eyebrow" data-i18n="usageEyebrow">How to use</p>
+          <h2 id="usage-title" data-i18n="usageTitle">在 Codex 裡呼叫 story-forge</h2>
+          <ol class="steps">
+            <li data-i18n="step1">在提示中明確寫出 <code>$story-forge</code> 或描述小說、章節、對話、修稿、卡稿等任務。</li>
+            <li data-i18n="step2">提供你的故事材料：題材、角色、章節、世界觀、目前卡住的位置，或既有正文。</li>
+            <li data-i18n="step3">要求具體交付物：啟動簡報、全書路線圖、章節大綱、正文、診斷、連續性台帳或修訂計畫。</li>
+            <li data-i18n="step4">讓它先處理結構與完稿，再進入文風拋光，避免無限重修第一章。</li>
+          </ol>
+        </div>
+        <figure class="side-art">
+          <img src="./assets/story-forge-workflow.png" alt="" />
+        </figure>
+      </section>
+
+      <section class="prompt-section" aria-labelledby="prompts-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="promptEyebrow">Prompt starters</p>
+          <h2 id="prompts-title" data-i18n="promptTitle">可以直接複製的開場指令</h2>
+        </div>
+        <div class="prompt-grid">
+          <button class="prompt-card" type="button" data-copy="launch">
+            <span data-i18n="prompt1Title">啟動長篇</span>
+            <code data-i18n="prompt1Body">用 $story-forge 幫我啟動一個長篇小說專案。我的靈感是...</code>
+          </button>
+          <button class="prompt-card" type="button" data-copy="chapter">
+            <span data-i18n="prompt2Title">寫下一章</span>
+            <code data-i18n="prompt2Body">用 $story-forge 陪我寫第 X 章。前情是... 先定目標、衝突、揭露、代價、鉤子。</code>
+          </button>
+          <button class="prompt-card" type="button" data-copy="stuck">
+            <span data-i18n="prompt3Title">卡稿診斷</span>
+            <code data-i18n="prompt3Body">用 $story-forge 診斷我為什麼卡稿。目前劇情是...</code>
+          </button>
+          <button class="prompt-card" type="button" data-copy="revision">
+            <span data-i18n="prompt4Title">修訂流程</span>
+            <code data-i18n="prompt4Body">用 $story-forge 幫我安排修稿。我的初稿狀態是...</code>
+          </button>
+        </div>
+        <p class="copy-status" aria-live="polite" data-i18n="copyHint">點擊卡片可複製指令。</p>
+      </section>
+
+      <section class="split reverse" aria-labelledby="continuity-title">
+        <figure class="side-art">
+          <img src="./assets/story-forge-continuity.png" alt="" />
+        </figure>
+        <div class="panel">
+          <p class="eyebrow" data-i18n="continuityEyebrow">Long-form control</p>
+          <h2 id="continuity-title" data-i18n="continuityTitle">長篇不崩盤的核心：連續性台帳</h2>
+          <p data-i18n="continuityBody">
+            story-forge 會追蹤角色關係、傷勢、道具、時間線、伏筆、謎團與世界規則，讓後段劇情不會和前段互相打架。
+          </p>
+          <ul class="check-list">
+            <li data-i18n="check1">角色知道什麼、隱瞞什麼、欠誰什麼。</li>
+            <li data-i18n="check2">傷勢、資源、道具與時間是否合理延續。</li>
+            <li data-i18n="check3">伏筆、謎團與結局承諾是否被追蹤。</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-i18n="footer">Story Forge is built for authors who want finished manuscripts, not endless notes.</span>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
